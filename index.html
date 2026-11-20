@@ -7,14 +7,14 @@
 <meta name="theme-color" content="#000000">
 <title>ورّيني · واقع معزز</title>
 <!--
-  Warini AR viewer (opened by the QR codes made at https://warini-ar.higgsfield.app).
+  Warini AR viewer (opened by the QR codes made at https://3d-scanner-ar.higgsfield.app).
   Android: markerless world tracking with the 8th Wall Engine binary — © 2026 Niantic Spatial, Inc. All rights reserved.
   The engine is used unmodified under the XR Engine License Agreement: https://github.com/8thwall/engine/blob/main/LICENSE
   It is provided "AS IS", without warranties of any kind (see the licence's disclaimer of warranties).
   iPhone: Apple AR Quick Look. 3D rendering: three.js (MIT).
 -->
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="preconnect" href="https://warini-ar.higgsfield.app" crossorigin>
+<link rel="preconnect" href="https://3d-scanner-ar.higgsfield.app" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700;800;900&display=swap">
 <style>
   html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:Tajawal,system-ui,Tahoma,Arial,sans-serif;color:#fff;-webkit-tap-highlight-color:transparent}
@@ -45,7 +45,7 @@
 <div id="ios" hidden><a id="ar" rel="ar" href="#"><img id="arimg" alt=""></a><button id="arbtn" type="button">📱 المس باش يطلع قدامك</button></div>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.187.0/build/three.module.js"}}</script>
 <script type="module">
-const API = "https://warini-ar.higgsfield.app";
+const API = "https://3d-scanner-ar.higgsfield.app";
 const ENGINE = "https://cdn.jsdelivr.net/npm/@8thwall/engine-binary@1.0.0/dist/xr.js";
 const THREE_URL = "https://cdn.jsdelivr.net/npm/three@0.187.0";
 const CAMERA_HEIGHT = 0.45; // metres between a seated customer's phone and the table: sets the scale of the scene
